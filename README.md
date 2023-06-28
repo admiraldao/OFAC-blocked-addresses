@@ -13,3 +13,9 @@ Recently, OFAC has been adding ETH wallet addresses to the SDN List. Unfortunate
 Please keep the text file in numerically sorted order (0 thru 9, then A thru F) and checksum any new addresses (especially important given the inaccuracies in the SDN list). Include a link to the relevant detailed OFAC announcement, for instance: https://home.treasury.gov/policy-issues/financial-sanctions/recent-actions/20211118
 
 It is our intent to merge valid PRs within one week of submission.
+
+### Using the Address Parser
+For ease of updating, we've created a parser that scrapes the raw SDN file for Ethereum-address-like entities and checksums them. Running `python parser.py PATH_TO_SDN_FILE` will produce the sorted, checksum output.
+
+## License
+MIT License
