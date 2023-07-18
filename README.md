@@ -18,4 +18,4 @@ It is our intent to merge valid PRs within one week of submission.
 For ease of updating, we've created a parser that scrapes the raw SDN file for Ethereum-address-like entities and checksums them. Running `python parser.py PATH_TO_SDN_FILE` will produce the sorted, checksum output.
 
 ## License
-MIT License
+AdmiralDAO has a non-exclusive license to distribute this software package from Shipyard Software, its copyright holder.
